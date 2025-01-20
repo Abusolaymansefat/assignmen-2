@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .behavior{
+    margin: 10px 140px;
+  }
+
+  .display-flex{
+    display: flex;
+  }
+
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1440px; */
+  }
+  .nav-title{
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .nav-links{
+    font-size: 1.3rem;
+  }
+
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+  }
+
+  .nav-link{
+    text-decoration: none;
+  }
+  .Orange{
+    color: #FEA301;
+  }
+  .sky-blue{
+    color: #01ACFD;
+  }
+  .blue{
+    color: #05D4DF;
+  }
+  .nave{
+    color: #5D58EF;
+  }
+
+  .btn-primary{
+    background-color: #FEA301;
+    color: #FFFFFF ;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+  }
+  .baner{
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  /* .banner-content{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+  } */
+
+  .baner-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 24px;
+  }
+
+  .baner-description{
+    font-weight: 400;
+    font-size: 1.4rem;
+    /* margin-top: 20px; */
+  }
+  .bt{
+    background-color: #111111;
+    color: #FFFFFF ;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 12px;
+    border: none;
+  }
+  .baner-image img{
+    width: 100%;
+  }
+
+  @media screen and (max-width: 576px){
+    .nav-links{
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-links:active{
+        display: flex;
+    }
+    .nav-item{
+        align-items: center;
+        margin: 10px 0;
+    }
+  }
